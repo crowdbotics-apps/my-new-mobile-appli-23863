@@ -2,9 +2,9 @@ import { createStackNavigator } from "react-navigation-stack";
 
 import Blank from "./screens/blank";
 
-export default BlankBlueprintNavigator = createStackNavigator(
+export default Text-OnlyWelcomeScreen3193571Navigator = createStackNavigator(
   {
-    Blank: { screen: Blank }
+    Text-OnlyWelcomeScreen319357: { screen: Text-OnlyWelcomeScreen319357 }
   },
   {
     initialRouteName: "Blank"
