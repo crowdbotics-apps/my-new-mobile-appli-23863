@@ -5,7 +5,7 @@ import {createDrawerNavigator} from 'react-navigation-drawer';
 import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
-
+import CbSplashScreen1193573Navigator from '../features/CbSplashScreen1193573/navigator';
 /**
  * new navigators can be imported here
  */
@@ -13,6 +13,7 @@ import SideMenu from './sideMenu';
 const AppNavigator = {
 
     //@BlueprintNavigationInsertion
+    CbSplashScreen1193573: { screen: CbSplashScreen1193573Navigator },
 
     /** new navigators can be added here */
     SplashScreen: {
@@ -25,7 +26,8 @@ const DrawerAppNavigator = createDrawerNavigator(
     ...AppNavigator,
   },
   {
-    contentComponent: SideMenu
+    contentComponent: SideMenu,
+    initialRouteName: "CbSplashScreen1193573", // Splash Screen
   },
 );
 
