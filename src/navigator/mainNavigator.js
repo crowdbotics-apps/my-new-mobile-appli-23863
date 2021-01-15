@@ -6,6 +6,7 @@ import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import CbSplashScreen1193573Navigator from '../features/CbSplashScreen1193573/navigator';
+import OnboardingSlideScreen2193572Navigator from '../features/OnboardingSlideScreen2193572/navigator';
 /**
  * new navigators can be imported here
  */
@@ -14,6 +15,7 @@ const AppNavigator = {
 
     //@BlueprintNavigationInsertion
     CbSplashScreen1193573: { screen: CbSplashScreen1193573Navigator },
+    OnboardingSlideScreen2193572: { screen: OnboardingSlideScreen2193572Navigator },
 
     /** new navigators can be added here */
     SplashScreen: {
