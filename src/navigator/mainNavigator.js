@@ -7,6 +7,7 @@ import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import CbSplashScreen1193573Navigator from '../features/CbSplashScreen1193573/navigator';
 import OnboardingSlideScreen2193572Navigator from '../features/OnboardingSlideScreen2193572/navigator';
+import Text-OnlyWelcomeScreen3193571Navigator from '../features/Text-OnlyWelcomeScreen3193571/navigator';
 /**
  * new navigators can be imported here
  */
@@ -16,7 +17,7 @@ const AppNavigator = {
     //@BlueprintNavigationInsertion
     CbSplashScreen1193573: { screen: CbSplashScreen1193573Navigator },
     OnboardingSlideScreen2193572: { screen: OnboardingSlideScreen2193572Navigator },
-
+    Text-OnlyWelcomeScreen3193571: { screen: Text-OnlyWelcomeScreen3193571Navigator },
     /** new navigators can be added here */
     SplashScreen: {
       screen: SplashScreen
